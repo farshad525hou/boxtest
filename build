@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ Main.cpp Line.cpp Line.h box.h box.cpp -o Main
