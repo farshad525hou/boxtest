@@ -5,7 +5,7 @@ CFLAGS = -Wall -c $(DEBUG)
 LFLAGS = -Wall $(DEBUG)
 Run : $(OBJS)
 	$(CC) $(LFLAGS) $(OBJS) -o Run
-	
+ 	
 Main.o : Main.cpp box.h Line.h
 	$(CC) $(CFLAGS) Main.cpp
 	
@@ -17,4 +17,4 @@ Line.o : Line.cpp Line.h box.h
 	
 	
 clean:	
-	\rm *.o *~ p1
+	\rm *.o *~ Run

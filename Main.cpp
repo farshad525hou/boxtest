@@ -17,7 +17,7 @@ int main(){
    cout << "ANswer is " << l<<endl;
 
 	Box boxa();
-cout <<	boxa.getLength() <<endl;
+
    return 0;
 
 }
